@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <h1>My Form</h1>
+
+
+</head>
+<body> <form>First name:<input id="text1" type="text" name="FirstName" ><br>
+    
+    
+    
+    <br><br>Last name: <input id="text2" type="text" name="LastName" ><br>
+   
+    
+    
+    <br><br>Email: <input id="text3" type="text" name="email" ><br>
+    <br>
+    
+   Grade Level: <select> 
+        <option value="Freshman">Freshman</option>
+        <option value="Sophmore">Sophmore</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+      </select>
+
+      <br><br>What's your favorite ice cream flavor?  
+      <br><input type="checkbox"> Chocolate<br>
+      <input type="checkbox" > Vanilla<br>
+      <input type="checkbox"  checked> Strawberry<br><br>
+      <button onclick="myfunction()">Submit</button> </form>
+      <script>
+          function myfunction() {
+              var firstName= document.getElementById("text1").value
+              var lastName= document.getElementById("text2").value
+              var email=document.getElementById("text3").value
+              alert("First Name: " +firstName+
+              "\n" + "Last Name: " +lastName+
+              "\n" + "Email: " +email)
+          }
+      </script>
+
+ 
+</body>
+
+</html>
