@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+body {
+    background-color: blueviolet;
+}
+#p01 {
+    color: red;
+}
+#p02 {
+    color:black
+}
+#p03 {
+    color:white
+}
+#p04{
+    color: pink
+}

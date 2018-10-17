@@ -3,31 +3,31 @@
 
 <head>
     <h1>My Form</h1>
-
+    <link rel="stylesheet" href="myformstyle.css">
 
 </head>
-<body> <form>First name:<input id="text1" type="text" name="FirstName" ><br>
+<body> <form><p id="p01">First name:</p><input id="text1" type="text" name="FirstName" ><br>
     
     
     
-    <br><br>Last name: <input id="text2" type="text" name="LastName" ><br>
+    <br><br><p id="p01">Last name:</p> <input id="text2" type="text" name="LastName" ><br>
    
     
     
-    <br><br>Email: <input id="text3" type="text" name="email" ><br>
+    <br><br><p id="p01">Email:</p> <input id="text3" type="text" name="email" ><br>
     <br>
     
-   Grade Level: <select> 
+    <p id="p01">Grade Level:</p> <select> 
         <option value="Freshman">Freshman</option>
         <option value="Sophmore">Sophmore</option>
         <option value="Junior">Junior</option>
         <option value="Senior">Senior</option>
       </select>
 
-      <br><br>What's your favorite ice cream flavor?  
-      <br><input type="checkbox"> Chocolate<br>
-      <input type="checkbox" > Vanilla<br>
-      <input type="checkbox"  checked> Strawberry<br><br>
+      <br><br><p id="p01">What's your favorite ice cream flavor?</p>  
+      <br><input type="checkbox"> <p id="p02">Chocolate</p><br>
+      <input type="checkbox" > <p id="p03">Vanilla</p><br>
+      <input type="checkbox"  checked> <p id="p04">Strawberry</p><br><br>
       <button onclick="myfunction()">Submit</button> </form>
       <script>
           function myfunction() {
