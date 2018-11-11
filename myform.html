@@ -2,8 +2,45 @@
 <html lang="en">
 
 <head>
+        <link rel="icon" href="favicon.gif" type="image/gif" >
+        <ul id="b1">
+                <li id="a4"><a id="a3" href="webpage.html">Home</a></li>
+                <li id="a4"><a id="a3" href="myfavvideo.html">Videos</a></li>
+                <li id="a4"><a id="a3" href="myform.html">Fun-Quiz</a></li>
+              
+              </ul>
+              <style>
+                    #b1 {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color: #333;
+                    }
+                    
+                    #a4 {
+                        float: left;
+                    }
+                    
+                    #a3 {
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                    }
+                    
+                    #a3:hover:not(.active) {
+                        background-color: #111;
+                    }
+                    
+                    .active {
+                        background-color: #4CAF50;
+                    }
+                    </style>
+        
     <h1>My Form</h1>
-    <link rel="stylesheet" href="myformstyle.css">
+    <link rel="stylesheet" href="CSS/myformstyle.css">
 
 </head>
 <body> <form><p id="p01">First name:</p><input id="text1" type="text" name="FirstName" ><br>
